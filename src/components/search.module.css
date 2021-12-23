@@ -3,7 +3,7 @@
   align-items: center;
   background: rgba(48, 47, 47, 0.808);
 
-  margin-bottom: 15px;
+  margin: 15px 0;
   padding: 10px;
   border-radius: 12px;
   width: 100%;
@@ -16,7 +16,7 @@
   border: none;
   outline: none;
   height: 100%;
-  direction: rtl;
+  color: rgb(241, 241, 241);
   font-size: 16px;
 }
 

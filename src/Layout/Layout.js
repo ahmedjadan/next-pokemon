@@ -3,11 +3,15 @@ function Layout({ children }) {
   return (
     <div className={styles.layout}>
       <div>
-        <h1 className={styles.title}>Pokemon Lists</h1>
+        <h1 className={styles.title}>Pokemon App</h1>
       </div>
 
       <main>{children}</main>
-      <footer>Footer</footer>
+      <footer>
+        <div className="footer">
+          <p> &copy; Ahmed Ja&#39;dan</p>
+        </div>
+      </footer>
     </div>
   );
 }

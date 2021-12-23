@@ -8,7 +8,6 @@ body {
   font-size: 18px;
   scroll-behavior: smooth;
   background: rgb(39, 39, 39);
-
 }
 
 a {
@@ -34,4 +33,34 @@ h3,
 h4 {
   margin: 0;
   padding: 0;
+}
+
+.back {
+  cursor: pointer;
+  padding: 12px;
+  margin-top: 12px;
+  display: block;
+}
+.pokemon__name {
+  text-align: center;
+}
+.pokemon__card {
+  margin-top: 20px;
+  background: rgb(48, 47, 47);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.pokemon__card h2 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .pokemon__card {
+    flex-direction: column;
+  }
 }

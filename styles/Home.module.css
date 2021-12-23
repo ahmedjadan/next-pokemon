@@ -1,5 +1,6 @@
 .main {
   color: #f1efeb;
   border-radius: 10px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
