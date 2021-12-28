@@ -7,7 +7,7 @@ function Card({ pokemon }) {
       <ul>
         {pokemon.map((poke, idx) => (
           <li key={idx}>
-            <Link href={`/pokemon/${idx + 1}`}>
+            <Link href={`/pokemon/${poke.name}`}>
               <a className={styles.list}>
                 <Image
                   src={poke.image}
